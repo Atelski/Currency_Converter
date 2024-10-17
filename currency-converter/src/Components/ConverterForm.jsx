@@ -2,9 +2,9 @@ import { useEffect, useState } from "react";
 import CurrencySelect from "./CurrencySelect";
 
 const ConverterForm = () => {
-    const [amount, setAmount] = useState(100);
-    const [fromCurrency, setFromCurrency] = useState("USD");
-    const [toCurrency, setToCurrency] = useState("INR");
+    const [amount, setAmount] = useState(1000);
+    const [fromCurrency, setFromCurrency] = useState("GHS");
+    const [toCurrency, setToCurrency] = useState("GBP");
     const [result, setResult] = useState("");
     const [isLoading, setIsLoading] = useState(false);
 
